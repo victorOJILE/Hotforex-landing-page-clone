@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotForex homepage</title>
+    <meta name="description" content="HotForex Download Mt4 Platform Clone (for practice purpose)">
+	<meta name="author" content="Ojile Victor">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header-division container">
+            <div class="flex-center flex-column">
+                <h4 class="member-text">Member of HF Markets Group</h4>
+                <img src="./images/HF-logo(1).PNG" class="hf-logo" alt="HF logo">
+            </div>
+            <div >
+                <nav class="flex-center justify">
+                    <!-- <i class="fa fa-comments" style="color: white; padding-right: 10px;"></i> -->
+                        <span class="live-support-btn white">Live Support &nbsp;<span style="color: white;">|</span>
+                </span><a
+                        href="#" class="contact-us">Contact Us 24/5</a>
+                    <div class="flex-center">
+                        <button class="top-login-btn white">
+                            <table>
+                                <tr>
+                                    <td><img src="./images/key.png"></td>
+                                    <td>Login</td>
+                                </tr>
+                            </table>
+                        </button>
+                        <button class="open-live-acct white">Open&nbsp;Live&nbsp;Account</button>
+                        <button class="top-demo-btn white">Demo</button>
+                    </div>
+                    <div class="lang" id="lang">
+                        <div class="lang-parent">
+                            <img src="images/English.PNG">
+                                <span class="language" id="language">
+                                <svg height="1rem" style="width: 0.7rem;">
+                                    <path stroke="rgb(128, 128, 128)" stroke-width="2px" d="M0 9 L4 12 L8 9">
+                                </svg>EN</span>
+                        </div>
+                        <div class="language-dropdown hide" id="language-dropdown">
+                            <div>
+                                <ul>
+                                    <li><img src="images/English.PNG">&nbsp;English</li>
+                                    <li><img src="dnhgdhgh.PNG">&nbsp;简体</li>
+                                    <li><img src="images/English.PNG">&nbsp;繁体</li>
+                                    <li><img src="images/English.PNG">&nbsp;ภาษาไทย</li>
+                                    <li><img src="images/English.PNG">&nbsp;Indonesia</li>
+                                    <li><img src=",kuioy.PNG">&nbsp;বাংলা</li>
+                                    <li><img src="English.PNG">&nbsp;Português</li>
+                                    <li><img src="muffyhyuf.PNG">&nbsp;Pусский</li>
+                                    <li><img src="jdynjj.PNG">&nbsp;العربية</li>
+                                    <li>اردو</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><img src="images/English.PNG">&nbsp;Italiano</li>
+                                    <li><img src="images/English.PNG">&nbsp;Français</li>
+                                    <li><img src="images/English.PNG">&nbsp;Espanol</li>
+                                    <li><img src="images/English.PNG">&nbsp;Deutsch</li>
+                                    <li><img src="sbhnyjy.PNG">&nbsp;Melayu</li>
+                                    <li><img src="filipino.PNG">&nbsp;Filipino</li>
+                                    <li><img src="dk678.PNG">&nbsp;Việt Nam</li>
+                                    <li><img src="English.PNG">&nbsp;한국어</li>
+                                    <li><img src="English.PNG">&nbsp;日本語</li>
+                                    <li> हिंद</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="term-cond">T&Cs Apply</div>
+                <!-- Top Navigation -->
+                <div class="menu">
+                    <div class="dropbtn" id="dropbtn">
+                        <div class="three-bars-icon">
+                            <div class="bars-line-one"></div>
+                            <div class="bars-line-one"></div>
+                            <div class="bars-line-one"></div>
+                        </div>
+                        <span class="white mn hide">MENU</span>
+                    </div>
+                    <div class="menu-dropdown hde" role="menu" aria-hidden="true">
+                        <div class="menu-name-div white flex-center"><span>MENU</span><button class="white" onclick="closeMenu()">&#10006;</button></div>
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="customHide">
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>HOME</div>
+                                    </a>
+                                </li>
+                                <li class="customHide">
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>LOGIN</div>
+                                    </a>
+                                </li>
+                                <li class="relative">
+                                    <a href="javascript:(0)" data-ml>
+                                        <div ><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button><i class="fa fa-home" style="font-size: 16px; margin-right: 10px; padding-bottom: 5px;"></i>ABOUT</div>
+                                    </a>
+                                    <list class="menu-list hide" role="list" aria-hidden="true">
+                                    <ul class="submenu">
+                                        <h5>About HotForex</h5>
+                                        <li data-aboutHf="aboutHF"><a
+                                                href="">About HotForex<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="advantagesHF"><a
+                                                href="">Advantages of HotForex<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="SocRes"><a
+                                                href="">Social Responsibility<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Company News"><a
+                                                href="">Company News<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="HotForex Gallery"><a
+                                                href="">HotForex Gallery<span
+                                                class="red-new">NEW</span></a></li>
+                                        <li data-aboutHf="HF Global"><a
+                                                href="">HF Global<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Sponsorships">
+                                            <a href="">Sponsorships<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                    <ul class="submenu">
+                                        <h5>Regulation</h5>
+                                        <li data-aboutHf="Regulation and License"><a href="">Regulation and License<span class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Security of Funds"><a href="">Security of Funds<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Awards"><a href="">Awards<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Legal Documentation"><a href="">Legal Documentation<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="FAQs"><a href="">FAQs<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                </list>
+                                </li>
+                                <li class="relative">
+                                    <a href="javascript:(0)" data-ml>
+                                        <div ><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>PRODUCTS</div>
+                                    </a>
+                                    <list class="menu-list hide" role="list" aria-hidden="true">
+                                    <ul class="submenu">
+                                        <h5>Trading Instruments</h5>
+                                        <li data-instrument="forex"><a
+                                                href="">Forex<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="metals"><a
+                                                href="">Metals<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="energies"><a
+                                                href="">Energies<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="indices"><a
+                                                href="">Indices<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="shares"><a
+                                                href="">Shares<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                    <ul class="submenu">
+                                        <h5>More Trading Instruments</h5>
+                                        <li data-instrument="comm"><a
+                                                href="">Commodities<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="bond">
+                                            <a href="">Bonds<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="stock"><a href="">Stocks
+                                                DMA<span class="red-new hide">NEW</span></a></li>
+                                        <li data-instrument="etf"><a href="">ETF<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                </list>
+                                </li>
+                                <li class="relative">
+                                    <a href="javascript:(0)" data-ml>
+                                        <div ><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>ACCOUNTS</div>
+                                    </a>
+                                    <list class="menu-list hide" role="list" aria-hidden="true">
+                                    <ul class="submenu">
+                                        <h5>Account Types</h5>
+                                        <li data-aboutHf="aboutHF"><a
+                                                href="">Account Comparison<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="advantagesHF"><a
+                                                href="">Micro Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="SocRes"><a
+                                                href="">Premium Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Company News"><a
+                                                href="">HFcopy Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                    <ul class="submenu">    
+                                        <h5>More Accounts</h5>
+                                        <li data-aboutHf="HotForex Gallery"><a
+                                                href="">Auto Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="HF Global"><a
+                                                href="">PAMM Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Sponsorships">
+                                            <a href="">Zero Spread Account<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Regulation and License">
+                                            <a href="">Islamic Account<span class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Security of Funds">
+                                            <a href="" class="highlightMenu">Deposits Options<span
+                                                class="red-new hide">NEW</span></a></li>
+                                        <li data-aboutHf="Awards">
+                                            <a href="" class="highlightMenu2">HotForex Spreads Comparison<span
+                                                class="red-new hide">NEW</span></a></li>
+                                    </ul>
+                                </list>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>PLATFORMS</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>TOOLS</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>EDUCATION</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>PROMOTIONS</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>PARTNERS</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><button><svg style="width:35; height: 20" viewbox="1 8 25 25">
+                                            <g fill="none" stroke="rgb(255, 0, 0)">
+                                                <path stroke-width="1" d="M2 12, L27 12, L27 29, L2 29 Z" />
+                                                <path stroke-width="1" d="M2 17, L14.5 21, L27 17" />
+                                            </g>
+                                        </svg></button>INVESTMENTS</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main0">
+            <a href="" data-image="main-img1">
+                <div class="main-img1">
+                    <img src="./images/psg-contest-slider-mbl-en.jpg" alt="">
+                </div>
+            </a>
+            <a href=""><button class="open-live open-live-acct">Open Live Account</button></a>
+            <a href=""><button class="open-demo open-live-acct">Open Demo Account</button></a>
+        </div>
+        <div class="absolute-navigator" style="left: 0;" id="left-navigator">
+			<svg height="100%" style="width: 4rem;">
+				<path stroke="rgb(128, 128, 128)" stroke-width="6px" d="M50 280 L40 290 L50 300">
+			</svg>
+		</div>
+		<div class="absolute-navigator" style="right: 0;" id="right-navigator">
+			<svg height="100%" style="width: 4rem;">
+				<path stroke="rgb(128, 128, 128)" stroke-width="6px" d="M30 280 L40 290 L30 300">
+			</svg>
+		</div>
+		
+        <div>
+            <div class="switch-parent">
+                    <div class="switch switch-color"></div>
+                    <div class="switch"></div>
+                    <div class="switch"></div>
+                    <div class="switch"></div>
+                    <div class="switch"></div>
+                    <div class="switch"></div>
+                </div>
+            <div class="main-background bg1">
+                <div class="container mainbg">
+                    <h1>Road to Paris Contest</h1>
+                    <p>Prove your skills to win</p>
+                    <ul>
+                        <li>- A unique Paris Saint-Germain experience</li>
+                        <li>- Generous CASH prizes for the top traders</li>
+                        <li>- Available to all new and existing clients</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">ENTER THE CONTEST&nbsp;<img src="./images/arrow_slider.png"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-background bg2 hide">
+                <div class="container mainbg">
+                    <h1>Return On Free Margin</h1>
+                    <p>$1,000,000 in cash prizes</p>
+                    <ul>
+                        <li>- Earn daily returns on your Investment</li>
+                        <li>- Withdrawable earnings credited directly to your wallet</li>
+                        <li>- Enjoy the ultimate performance reward</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">JOIN ROFM</div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-background bg3 hide">
+                <div class="container mainbg">
+                    <h1>Multiple Bonus Offerings</h1>
+                    <p>Boost your trading!</p>
+                    <ul>
+                        <li>- 100% Supercharged Bonus + Instant Rebates</li>
+                        <li>- 100% Credit Bonus</li>
+                        <li>- 30% Rescue Bonus</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">Learn more<img src="./images/arrow_slider.png"></div>
+                    </a>
+                </div>
+                <!--  -->
+            </div>
+            <div class="main-background bg4 hide">
+                <div class="container mainbg">
+                    <h1>Diversify your portfolio with</h1>
+                    <p>a true multi-asset broke</p>
+                    <ul>
+                        <li>- Derivatives on:</li>
+                        <li>- Forex - Commodities - Bonds - Metals</li>
+                        <li>- Energies - Shares - Indices - DMA -ETFs</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">Learn more<img src="./images/arrow_slider.png"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-background bg5 hide">
+                <div class="container mainbg">
+                    <h1>Award winning security of funds</h1>
+                    <p>FREE negative balance protection</p>
+                    <ul>
+                        <li>- Client funds market leading insurance</li>
+                        <li>- Insurance up to €5,000,000</li>
+                        <li>- Your fund's security is our top priority</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">Learn more</div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-background bg6 hide">
+                <div class="container mainbg">
+                    <h1>Download the HF App</h1>
+                    <p>Your Fast Track to Online Trading</p>
+                    <ul>
+                        <li>- Access myHF Area on the go</li>
+                        <li>- Open a Live/Demo account</li>
+                        <li>- Monitor trader's positions</li>
+                    </ul>
+                    <a href="">
+                        <div class="enter-contest">Learn more<img src="./images/arrow_slider.png"></div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+        <div class="acct-level-div-p">
+            <div class="container acct-level-div">
+                <div class="acct-level">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 144.3 70.9"
+                                            style="enable-background:new 0 0 144.3 70.9; width: 6rem;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #EB382F;
+                                                    stroke: #EB382F;
+                                                    stroke-width: 0.5046;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <path class="st0"
+                                                    d="M11.7,14.5c-2.1,2.7-5.1,4.5-9,4.9V16c5.7-0.4,8.3-3.8,9.8-8.1h3v57.8h-3.8V14.5z" />
+                                                <path class="st0" d="M26.7,27.1v7.3H23v-7.3H26.7z M26.7,58.5v7.3H23v-7.3H26.7z" />
+                                                <path class="st0"
+                                                    d="M43.5,14.5c-2.1,2.7-5.1,4.5-9,4.9V16c5.7-0.4,8.3-3.8,9.8-8.1h3v57.8h-3.8V14.5z" />
+                                                <path class="st0" d="M54.6,22.1c0-8.5,3.9-14.6,12.7-14.6S80,13.6,80,22.1v29.5c0,8.4-3.9,14.6-12.7,14.6S54.6,60,54.6,51.6V22.1z
+                                             M58.4,51.8c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V21.9c0-6.3-2.6-10.9-8.9-10.9s-8.9,4.6-8.9,10.9V51.8z" />
+                                                <path class="st0" d="M85.2,22.1c0-8.5,3.9-14.6,12.7-14.6s12.7,6.1,12.7,14.6v29.5c0,8.4-3.9,14.6-12.7,14.6S85.2,60,85.2,51.6
+                                            V22.1z M89,51.8c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V21.9c0-6.3-2.6-10.9-8.9-10.9S89,15.6,89,21.9V51.8z" />
+                                                <path class="st0" d="M115.8,22.1c0-8.5,3.9-14.6,12.7-14.6c8.8,0,12.7,6.1,12.7,14.6v29.5c0,8.4-3.9,14.6-12.7,14.6
+                                            c-8.8,0-12.7-6.2-12.7-14.6V22.1z M119.6,51.8c0,6.3,2.6,11,8.9,11c6.3,0,8.9-4.6,8.9-11V21.9c0-6.3-2.6-10.9-8.9-10.9
+                                            c-6.3,0-8.9,4.6-8.9,10.9V51.8z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </td>
+                                <td>ACCOUNT<br>LEVERAGE</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="acct-level">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 144.3 70.9"
+                                            style="enable-background:new 0 0 144.3 70.9; width: 6rem;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #EB382F;
+                                                    stroke: #EB382F;
+                                                    stroke-width: 0.5046;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <path class="st0"
+                                                    d="M11.7,14.5c-2.1,2.7-5.1,4.5-9,4.9V16c5.7-0.4,8.3-3.8,9.8-8.1h3v57.8h-3.8V14.5z" />
+                                                <path class="st0"
+                                                    d="M47.9,22.2c0,16.7-20.9,22.4-21.1,39.4v0.7h20.6v3.5H23v-2.8c0-20.4,21.1-24.7,21.1-40.6
+                                            c0-6.7-2.2-11.4-8.8-11.4c-6.3,0-8.7,4.9-8.7,11.1v4H23v-3.7C23,14,26.6,7.5,35.5,7.5C44.5,7.5,47.9,13.8,47.9,22.2z" />
+                                                <path class="st0" d="M53.1,22.1c0-8.5,3.9-14.6,12.7-14.6s12.7,6.1,12.7,14.6v29.5c0,8.4-3.9,14.6-12.7,14.6S53.1,60,53.1,51.6
+                                            V22.1z M56.8,51.8c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V21.9c0-6.3-2.6-10.9-8.9-10.9s-8.9,4.6-8.9,10.9V51.8z" />
+                                                <path class="st0" d="M83.6,22.1c0-8.5,3.9-14.6,12.7-14.6S109,13.6,109,22.1v29.5c0,8.4-3.9,14.6-12.7,14.6S83.6,60,83.6,51.6V22.1
+                                            z M87.4,51.8c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V21.9c0-6.3-2.6-10.9-8.9-10.9s-8.9,4.6-8.9,10.9V51.8z" />
+                                                <path class="st0"
+                                                    d="M128.6,38.3v12h-2.8v-12h-11.7v-2.8h11.7V23.6h2.8v11.9h11.8v2.8H128.6z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </td>
+                                <td>TRADING<br>INSTRUMENTS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="acct-level">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127.7 60.5"
+                                            style="enable-background:new 0 0 127.7 60.5; width: 5rem;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #EB382F;
+                                                    stroke: #EB382F;
+                                                    stroke-width: 0.5046;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <path class="st0"
+                                                    d="M10.3,7.9c-2.1,2.7-5.1,4.5-9,4.9V9.4C7,9,9.6,5.6,11.1,1.3h3v57.8h-3.8V7.9z" />
+                                                <path class="st0"
+                                                    d="M21.4,15.5c0-8.5,3.9-14.6,12.7-14.6S46.8,7,46.8,15.5V45c0,8.4-3.9,14.6-12.7,14.6S21.4,53.4,21.4,45V15.5z
+                                            M25.2,45.2c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V15.3C43,9,40.4,4.4,34.1,4.4S25.2,9,25.2,15.3C25.2,15.3,25.2,45.2,25.2,45.2z" />
+                                                <path class="st0"
+                                                    d="M52,15.5C52,7,55.9,0.9,64.7,0.9S77.4,7,77.4,15.5V45c0,8.4-3.9,14.6-12.7,14.6S52,53.4,52,45V15.5z
+                                            M55.8,45.2c0,6.3,2.6,11,8.9,11s8.9-4.6,8.9-11V15.3C73.6,9,71,4.4,64.7,4.4S55.8,9,55.8,15.3C55.8,15.3,55.8,45.2,55.8,45.2z" />
+                                                <path class="st0" d="M98.2,10.6v17.6c0,5.2-2.2,9.3-7.8,9.3c-5.5,0-7.7-4.1-7.7-9.3V10.6c0-5.2,2.2-9.3,7.7-9.3
+                                            C96,1.3,98.2,5.4,98.2,10.6z M85.2,10.5v17.8c0,3.6,1.2,6.8,5.2,6.8c3.9,0,5.2-3.1,5.2-6.8V10.5c0-3.7-1.3-6.8-5.2-6.8
+                                            C86.4,3.6,85.2,6.8,85.2,10.5z M116.9,1.3L94.2,59.1h-2.5l22.8-57.8C114.5,1.3,116.9,1.3,116.9,1.3z M126.3,32.6v17.3
+                                            c0,5.2-2.1,9.4-7.8,9.4c-5.6,0-7.8-4.2-7.8-9.4V32.6c0-5.2,2.2-9.4,7.8-9.4C124.1,23.2,126.3,27.4,126.3,32.6z M113.3,32.4V50
+                                            c0,3.6,1.3,6.8,5.2,6.8c4,0,5.2-3.2,5.2-6.8V32.4c0-3.7-1.2-6.8-5.2-6.8C114.6,25.7,113.3,28.7,113.3,32.4z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </td>
+                                <td>BONUS<br>OFFERINGS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="acct-level">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 67.3 60.4"
+                                            style="enable-background:new 0 0 67.3 60.4; width: 3rem;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #EB382F;
+                                                    stroke: #EB382F;
+                                                    stroke-width: 0.5046;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <path class="st0" d="M0.9,15.4c0-8.5,3.9-14.6,12.7-14.6s12.7,6.1,12.7,14.6v29.5c0,8.4-3.9,14.6-12.7,14.6S0.9,53.3,0.9,44.9V15.4
+                                            z M4.7,45c0,6.3,2.6,11,8.9,11c6.3,0,8.9-4.6,8.9-11V15.1c0-6.3-2.6-10.9-8.9-10.9c-6.3,0-8.9,4.6-8.9,10.9V45z" />
+                                                <path class="st0" d="M35.4,51.7V59h-3.7v-7.3H35.4z" />
+                                                <path class="st0"
+                                                    d="M40.9,15.4c0-8.5,3.9-14.6,12.7-14.6s12.7,6.1,12.7,14.6v29.5c0,8.4-3.9,14.6-12.7,14.6s-12.7-6.2-12.7-14.6
+                                            V15.4z M44.7,45c0,6.3,2.6,11,8.9,11c6.3,0,8.9-4.6,8.9-11V15.1c0-6.3-2.6-10.9-8.9-10.9c-6.3,0-8.9,4.6-8.9,10.9V45z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </td>
+                                <td>SPREADS AS <br>LOW AS 0 PIPS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="acct-level">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55.7 70.9"
+                                            style="enable-background:new 0 0 55.7 70.9; width: 2.5rem;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #EB382F;
+                                                }
+                                            </style>
+                                            <g>
+                                                <path class="st0" d="M15.7,8.6c7,0.6,9.8,6,9.8,13v1.2h-3.3v-1.4c0-5.7-2.1-9.8-7.8-9.8s-7.8,4.1-7.8,9.7
+                                            c0,12.8,19.1,12.5,19.1,27.1c0,7-2.9,12.4-9.9,13v4.2h-2.9v-4.2c-7.1-0.5-10-6-10-13v-2.9h3.3v3.1c0,5.7,2.2,9.8,8,9.8s8-4.1,8-9.8
+                                            C22.1,36,3,36.2,3,21.6c0-7.4,2.9-12.4,9.7-13V4h2.9L15.7,8.6L15.7,8.6z" />
+                                                <path class="st0"
+                                                    d="M30.4,21.5c0-7.8,3.5-13.3,11.6-13.3s11.6,5.6,11.6,13.3v27c0,7.7-3.5,13.3-11.6,13.3s-11.6-5.7-11.6-13.3
+                                            V21.5z M33.8,48.7c0,5.8,2.3,10,8.1,10s8.1-4.2,8.1-10V21.3c0-5.7-2.3-10-8.1-10s-8.1,4.2-8.1,10C33.8,21.3,33.8,48.7,33.8,48.7z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </td>
+                                <td>FEES ON <br>DEPOSITS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="table-main">
+            <div class="glb-trends" style="margin-bottom: 2.5rem;">
+                <h4>GLOBAL TRENDS REPORT 2022</h4>
+                <img src="./images/homepage.jpg" alt="Homepage image">
+            </div>
+    
+            <div class="glb-trends-main">
+                <div class="glb-trends" style="background-color: white;">
+                    <h4>CURRENT RATES & SPREADS</h4>
+                </div>
+                <div class="table-div">
+                    <div class="table-nav-div">
+                        <div class="navs-glb">
+                            <div>FOREX</div>
+                            <div>METALS</div>
+                            <div>STOCKS</div>
+                            <div>INDICES</div>
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Instrument</th>
+                            <th>Bid/Ask</th>
+                            <th>Spread</th>
+                        </tr>
+                        <tr>
+                            <td class="instr">EURUSD</td>
+                            <td class="bid">1.10274 / 1.10276</td>
+                            <td class="spread">0.2</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">USDJPY</td>
+                            <td class="bid">120.750 / 120.7565</td>
+                            <td class="spread">0.6</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">USDCHF</td>
+                            <td class="red">0.93235 / 0.93240</td>
+                            <td class="spread">0.5</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">GBPUSD</td>
+                            <td class="bid">1.32443 / 1.32446</td>
+                            <td class="spread">0.3</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">AUDUSD</td>
+                            <td class="red">0.74303 / 0.74308</td>
+                            <td class="spread">0.5</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">GBPJPY</td>
+                            <td class="bid">159.925 / 159.937</td>
+                            <td class="spread">1.2</td>
+                        </tr>
+                        <tr>
+                            <td class="instr">EURGBP</td>
+                            <td class="red">0.83257 / 0.83261</td>
+                            <td class="spread">0.4</td>
+                        </tr>
+                    </table>
+                    <p>Zero Spread Quotes Are Delayed - Commissions Apply</p>
+                </div>
+            </div>
+        </div>
+        <div class="mother-div">
+            <div class="flex-center trading-tools">
+                <div class="indiv-tool">
+                    <div>
+                        <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M35.0625 28.6875H32.9375V39.3125H35.0625V28.6875Z" fill="url(#paint0_linear)" />
+                            <path
+                                d="M45.6875 12.9221C45.6867 10.6486 45.0229 8.42473 43.7774 6.52283C42.5319 4.62092 40.7587 3.12357 38.675 2.21419C38.5133 2.14364 38.3367 2.11444 38.1609 2.12923C37.9852 2.14402 37.8159 2.20232 37.6683 2.29889C37.5207 2.39545 37.3995 2.52724 37.3155 2.68237C37.2316 2.83749 37.1876 3.01107 37.1875 3.18744V12.9221C37.1875 13.7674 36.8517 14.5782 36.2539 15.176C35.6561 15.7737 34.8454 16.1096 34 16.1096C33.1546 16.1096 32.3439 15.7737 31.7461 15.176C31.1483 14.5782 30.8125 13.7674 30.8125 12.9221V3.18744C30.8124 3.01107 30.7684 2.83749 30.6845 2.68237C30.6005 2.52724 30.4793 2.39545 30.3317 2.29889C30.1841 2.20232 30.0148 2.14402 29.8391 2.12923C29.6633 2.11444 29.4866 2.14364 29.325 2.21419C27.2959 3.0991 25.56 4.5423 24.3195 6.37568C23.079 8.20907 22.3849 10.3572 22.3181 12.5698C22.2513 14.7824 22.8146 16.9685 23.9422 18.8734C25.0699 20.7783 26.7155 22.3235 28.6875 23.3293V44.6696C26.717 45.6766 25.0729 47.2225 23.9464 49.1272C22.8199 51.032 22.2573 53.2174 22.3241 55.4294C22.3909 57.6413 23.0843 59.7888 24.3236 61.6222C25.563 63.4555 27.2973 64.8993 29.325 65.7857C29.4866 65.8562 29.6633 65.8854 29.8391 65.8707C30.0148 65.8559 30.1841 65.7976 30.3317 65.701C30.4793 65.6044 30.6005 65.4726 30.6845 65.3175C30.7684 65.1624 30.8124 64.9888 30.8125 64.8124V54.1874C30.8125 53.3421 31.1483 52.5313 31.7461 51.9335C32.3439 51.3358 33.1546 50.9999 34 50.9999C34.8454 50.9999 35.6561 51.3358 36.2539 51.9335C36.8517 52.5313 37.1875 53.3421 37.1875 54.1874V64.8124C37.1875 65.0942 37.2994 65.3645 37.4987 65.5637C37.698 65.763 37.9682 65.8749 38.25 65.8749C38.3964 65.8754 38.5412 65.845 38.675 65.7857C40.7027 64.8993 42.437 63.4555 43.6764 61.6222C44.9157 59.7888 45.6091 57.6413 45.6759 55.4294C45.7426 53.2174 45.1801 51.032 44.0536 49.1272C42.9271 47.2225 41.283 45.6766 39.3125 44.6696V23.3293C41.2308 22.3503 42.8413 20.8604 43.9663 19.0239C45.0913 17.1874 45.6869 15.0757 45.6875 12.9221ZM37.825 46.3154C39.398 47.0012 40.7573 48.0979 41.7602 49.4903C42.7631 50.8826 43.3727 52.5194 43.5248 54.2286C43.677 55.9378 43.3662 57.6565 42.625 59.2041C41.8838 60.7518 40.7396 62.0714 39.3125 63.0243V54.1874C39.3125 52.7785 38.7528 51.4272 37.7565 50.4309C36.7602 49.4347 35.409 48.8749 34 48.8749C32.591 48.8749 31.2398 49.4347 30.2435 50.4309C29.2472 51.4272 28.6875 52.7785 28.6875 54.1874V63.0243C27.2604 62.0714 26.1162 60.7518 25.375 59.2041C24.6338 57.6565 24.323 55.9378 24.4751 54.2286C24.6273 52.5194 25.2369 50.8826 26.2398 49.4903C27.2427 48.0979 28.602 47.0012 30.175 46.3154C30.3644 46.2327 30.5256 46.0966 30.6388 45.9238C30.752 45.7509 30.8124 45.5488 30.8125 45.3421V22.6567C30.8124 22.45 30.752 22.2479 30.6388 22.0751C30.5256 21.9022 30.3644 21.7661 30.175 21.6834C28.602 20.9978 27.2426 19.9012 26.2397 18.5089C25.2367 17.1166 24.6271 15.48 24.475 13.7708C24.3228 12.0616 24.6337 10.343 25.3749 8.79542C26.1161 7.24783 27.2604 5.92839 28.6875 4.97563V12.9221C28.6875 14.331 29.2472 15.6823 30.2435 16.6786C31.2398 17.6749 32.591 18.2346 34 18.2346C35.409 18.2346 36.7602 17.6749 37.7565 16.6786C38.7528 15.6823 39.3125 14.331 39.3125 12.9221V4.97563C40.7396 5.92839 41.8839 7.24783 42.6251 8.79542C43.3663 10.343 43.6772 12.0616 43.525 13.7708C43.3729 15.48 42.7633 17.1166 41.7603 18.5089C40.7573 19.9012 39.398 20.9978 37.825 21.6834C37.6356 21.7661 37.4744 21.9022 37.3612 22.0751C37.248 22.2479 37.1876 22.45 37.1875 22.6567V45.3421C37.1876 45.5488 37.248 45.7509 37.3612 45.9238C37.4744 46.0966 37.6356 46.2327 37.825 46.3154Z"
+                                fill="url(#paint1_linear)" />
+                            <path
+                                d="M19.125 40.3749H17.6566L19.0187 37.6623H19.0092C19.0845 37.5153 19.1242 37.3526 19.125 37.1874V30.8124C19.125 30.5306 19.0131 30.2604 18.8138 30.0611C18.6145 29.8618 18.3443 29.7499 18.0625 29.7499H15.9375V10.6249C15.9375 10.5265 15.9239 10.4285 15.8971 10.3338L13.7721 2.89629C13.709 2.67386 13.575 2.47811 13.3906 2.33871C13.2061 2.19932 12.9812 2.1239 12.75 2.1239C12.5188 2.1239 12.2939 2.19932 12.1094 2.33871C11.925 2.47811 11.791 2.67386 11.7279 2.89629L9.60288 10.3338C9.57609 10.4285 9.5625 10.5265 9.5625 10.6249V29.7499H7.4375C7.15571 29.7499 6.88546 29.8618 6.6862 30.0611C6.48694 30.2604 6.375 30.5306 6.375 30.8124V37.1874C6.37793 37.3518 6.4198 37.5131 6.49719 37.6581H6.48656L7.84337 40.3749H6.375C6.09321 40.3749 5.82296 40.4868 5.6237 40.6861C5.42444 40.8854 5.3125 41.1556 5.3125 41.4374V61.1563C5.3136 61.8244 5.52457 62.4752 5.9156 63.0168C6.30662 63.5585 6.85795 63.9636 7.49169 64.1749L12.4142 65.8154C12.6293 65.8876 12.8622 65.8876 13.0772 65.8154L18.0083 64.1749C18.642 63.9636 19.1934 63.5585 19.5844 63.0168C19.9754 62.4752 20.1864 61.8244 20.1875 61.1563V41.4374C20.1875 41.1556 20.0756 40.8854 19.8763 40.6861C19.677 40.4868 19.4068 40.3749 19.125 40.3749ZM11.6875 10.7737L12.75 7.05491L13.8125 10.7737V29.7499H11.6875V10.7737ZM8.5 31.8749H17V36.1249H8.5V31.8749ZM9.15663 38.2499H16.3434L15.2809 40.3749H10.2191L9.15663 38.2499ZM7.4375 61.1563V42.4999H11.6875V63.3377L8.16425 62.1689C7.9519 62.0982 7.76731 61.9622 7.63681 61.7804C7.5063 61.5985 7.43655 61.3802 7.4375 61.1563ZM18.0625 61.1563C18.0626 61.3794 17.9924 61.5969 17.8619 61.7779C17.7315 61.9588 17.5474 62.0942 17.3357 62.1647L13.8125 63.3377V42.4999H18.0625V61.1563Z"
+                                fill="url(#paint2_linear)" />
+                            <path
+                                d="M58.4375 36.1248C58.7193 36.1248 58.9895 36.0129 59.1888 35.8136C59.3881 35.6143 59.5 35.3441 59.5 35.0623V30.8123C59.5 30.5305 59.3881 30.2603 59.1888 30.061C58.9895 29.8617 58.7193 29.7498 58.4375 29.7498H57.375V11.818L58.4056 7.69442C58.4439 7.54125 58.4475 7.38148 58.4163 7.22673C58.385 7.07197 58.3197 6.92613 58.225 6.79979L55.0375 2.54979C54.9342 2.42429 54.8045 2.32322 54.6575 2.25382C54.5105 2.18443 54.35 2.14844 54.1875 2.14844C54.025 2.14844 53.8645 2.18443 53.7175 2.25382C53.5705 2.32322 53.4408 2.42429 53.3375 2.54979L50.15 6.79979C50.0553 6.92613 49.99 7.07197 49.9587 7.22673C49.9275 7.38148 49.9311 7.54125 49.9694 7.69442L51 11.818V29.7498H49.9375C49.6557 29.7498 49.3855 29.8617 49.1862 30.061C48.9869 30.2603 48.875 30.5305 48.875 30.8123V35.0623C48.875 35.3441 48.9869 35.6143 49.1862 35.8136C49.3855 36.0129 49.6557 36.1248 49.9375 36.1248H51V40.3748H49.9375C49.6557 40.3748 49.3855 40.4867 49.1862 40.686C48.9869 40.8853 48.875 41.1555 48.875 41.4373V64.8123C48.875 65.0941 48.9869 65.3643 49.1862 65.5636C49.3855 65.7629 49.6557 65.8748 49.9375 65.8748H58.4375C58.7193 65.8748 58.9895 65.7629 59.1888 65.5636C59.3881 65.3643 59.5 65.0941 59.5 64.8123V41.4373C59.5 41.1555 59.3881 40.8853 59.1888 40.686C58.9895 40.4867 58.7193 40.3748 58.4375 40.3748H57.375V36.1248H58.4375ZM53.0931 11.4302L52.1539 7.66998L54.1875 4.95848L56.2211 7.66998L55.2819 11.4302C55.2606 11.5142 55.2499 11.6006 55.25 11.6873V29.7498H53.125V11.6873C53.1251 11.6006 53.1144 11.5142 53.0931 11.4302ZM51 31.8748H57.375V33.9998H51V31.8748ZM57.375 63.7498H51V42.4998H57.375V63.7498ZM55.25 40.3748H53.125V36.1248H55.25V40.3748Z"
+                                fill="url(#paint3_linear)" />
+                            <path d="M55.25 44.625H53.125V46.75H55.25V44.625Z" fill="url(#paint4_linear)" />
+                            <path d="M35.0625 24.4375H32.9375V26.5625H35.0625V24.4375Z" fill="url(#paint5_linear)" />
+                            <path d="M35.0625 41.4375H32.9375V43.5625H35.0625V41.4375Z" fill="url(#paint6_linear)" />
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="31.0056" y1="34" x2="37.0138" y2="34"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="1.0625" y1="33.9999" x2="67.1511" y2="33.9999"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="-8.21062" y1="33.9965" x2="33.8463" y2="33.9965"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear" x1="39.2156" y1="34.0113" x2="69.2563" y2="34.0113"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear" x1="51.1931" y1="45.6875" x2="57.2013" y2="45.6875"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear" x1="31.0056" y1="25.5" x2="37.0138" y2="25.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint6_linear" x1="31.0056" y1="42.5" x2="37.0138" y2="42.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" stop-opacity="0.74" />
+                                    <stop offset="0.229" stop-color="#FC4D42" />
+                                    <stop offset="0.711" stop-color="#EB352D" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="info-div">
+                        <div><span>18</span>&nbsp;Trading Tools</div>
+                        <p>Plan your trades effectively with our wide range of free trading tools</p>
+                    </div>
+                </div>
+                <div class="indiv-tool">
+                    <div>
+                        <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.6375 8.5V8.3H7.4375H3.1875C2.95875 8.3 2.73937 8.20913 2.57762 8.04738C2.41587 7.88563 2.325 7.66625 2.325 7.4375V3.1875C2.325 2.95875 2.41587 2.73937 2.57762 2.57762C2.73937 2.41587 2.95875 2.325 3.1875 2.325H64.8125C65.0412 2.325 65.2606 2.41587 65.4224 2.57762C65.5841 2.73937 65.675 2.95875 65.675 3.1875V7.4375C65.675 7.66625 65.5841 7.88563 65.4224 8.04738C65.2606 8.20913 65.0412 8.3 64.8125 8.3H60.5625H60.3625V8.5V64.8125C60.3625 65.0412 60.2716 65.2606 60.1099 65.4224C59.9481 65.5841 59.7287 65.675 59.5 65.675H8.5C8.27125 65.675 8.05187 65.5841 7.89012 65.4224C7.72837 65.2606 7.6375 65.0412 7.6375 64.8125V8.5ZM58.4375 63.95H58.6375V63.75V8.5V8.3H58.4375H9.5625H9.3625V8.5V63.75V63.95H9.5625H58.4375ZM63.75 6.575H63.95V6.375V4.25V4.05H63.75H4.25H4.05V4.25V6.375V6.575H4.25H63.75Z"
+                                fill="url(#paint0_linear)" stroke="white" stroke-width="0.4" />
+                            <path
+                                d="M14.875 27.425H14.675V27.625V46.75V46.95H14.875H19.125H19.325V46.75V27.625V27.425H19.125H14.875ZM13.2026 56.9224L13.0612 57.0638L13.2026 56.9224C13.0409 56.7606 12.95 56.5412 12.95 56.3125V26.5625C12.95 26.3338 13.0409 26.1144 13.2026 25.9526C13.3644 25.7909 13.5838 25.7 13.8125 25.7H20.1875C20.4162 25.7 20.6356 25.7909 20.7974 25.9526C20.9591 26.1144 21.05 26.3338 21.05 26.5625V56.3125C21.05 56.5412 20.9591 56.7606 20.7974 56.9224C20.6356 57.0841 20.4163 57.175 20.1875 57.175H13.8125C13.5838 57.175 13.3644 57.0841 13.2026 56.9224ZM14.875 48.675H14.675V48.875V51V51.2H14.875H19.125H19.325V51V48.875V48.675H19.125H14.875ZM14.875 52.925H14.675V53.125V55.25V55.45H14.875H19.125H19.325V55.25V53.125V52.925H19.125H14.875Z"
+                                fill="url(#paint1_linear)" stroke="white" stroke-width="0.4" />
+                            <path
+                                d="M29.75 55.45H29.95V55.25V46.75V46.55H29.75H25.5H25.3V46.75V55.25V55.45H25.5H29.75ZM23.8276 56.9224L23.6862 57.0638L23.8276 56.9224C23.6659 56.7606 23.575 56.5412 23.575 56.3125V30.8125C23.575 30.5838 23.6659 30.3644 23.8276 30.2026C23.9894 30.0409 24.2088 29.95 24.4375 29.95H30.8125C31.0412 29.95 31.2606 30.0409 31.4224 30.2026C31.5841 30.3644 31.675 30.5838 31.675 30.8125V56.3125C31.675 56.5412 31.5841 56.7606 31.4224 56.9224C31.2606 57.0841 31.0413 57.175 30.8125 57.175H24.4375C24.2088 57.175 23.9894 57.0841 23.8276 56.9224ZM29.75 44.825H29.95V44.625V42.5V42.3H29.75H25.5H25.3V42.5V44.625V44.825H25.5H29.75ZM29.75 40.575H29.95V40.375V31.875V31.675H29.75H25.5H25.3V31.875V40.375V40.575H25.5H29.75Z"
+                                fill="url(#paint2_linear)" stroke="white" stroke-width="0.4" />
+                            <path
+                                d="M40.375 55.45H40.575V55.25V51V50.8H40.375H36.125H35.925V51V55.25V55.45H36.125H40.375ZM34.4526 56.9224L34.3112 57.0638L34.4526 56.9224C34.2909 56.7606 34.2 56.5412 34.2 56.3125V37.1875C34.2 36.9588 34.2909 36.7394 34.4526 36.5776C34.6144 36.4159 34.8338 36.325 35.0625 36.325H41.4375C41.6662 36.325 41.8856 36.4159 42.0474 36.5776C42.2091 36.7394 42.3 36.9588 42.3 37.1875V56.3125C42.3 56.5412 42.2091 56.7606 42.0474 56.9224C41.8856 57.0841 41.6663 57.175 41.4375 57.175H35.0625C34.8338 57.175 34.6144 57.0841 34.4526 56.9224ZM40.375 49.075H40.575V48.875V46.75V46.55H40.375H36.125H35.925V46.75V48.875V49.075H36.125H40.375ZM40.375 44.825H40.575V44.625V38.25V38.05H40.375H36.125H35.925V38.25V44.625V44.825H36.125H40.375Z"
+                                fill="url(#paint3_linear)" stroke="white" stroke-width="0.4" />
+                            <path
+                                d="M46.75 25.3H46.55V25.5V46.75V46.95H46.75H51H51.2V46.75V25.5V25.3H51H46.75ZM46.75 48.675H46.55V48.875V51V51.2H46.75H51H51.2V51V48.875V48.675H51H46.75ZM46.75 52.925H46.55V53.125V55.25V55.45H46.75H51H51.2V55.25V53.125V52.925H51H46.75ZM44.825 56.3125V24.4375C44.825 24.2088 44.9159 23.9894 45.0776 23.8276C45.2394 23.6659 45.4588 23.575 45.6875 23.575H52.0625C52.2912 23.575 52.5106 23.6659 52.6724 23.8276C52.8341 23.9894 52.925 24.2088 52.925 24.4375V56.3125C52.925 56.5412 52.8341 56.7606 52.6724 56.9224C52.5106 57.0841 52.2912 57.175 52.0625 57.175H45.6875C45.4588 57.175 45.2394 57.0841 45.0776 56.9224C44.9159 56.7606 44.825 56.5412 44.825 56.3125Z"
+                                fill="url(#paint4_linear)" stroke="white" stroke-width="0.4" />
+                            <path d="M12.95 12.55V10.825H32.7375V12.55H12.95Z" fill="url(#paint5_linear)" stroke="white"
+                                stroke-width="0.4" />
+                            <path d="M12.95 16.8V15.075H22.1125V16.8H12.95Z" fill="url(#paint6_linear)" stroke="white"
+                                stroke-width="0.4" />
+                            <path d="M24.6375 16.8V15.075H26.3625V16.8H24.6375Z" fill="url(#paint7_linear)" stroke="white"
+                                stroke-width="0.4" />
+                            <path d="M46.95 61.425V59.7H52.925V61.425H46.95Z" fill="url(#paint8_linear)" stroke="white"
+                                stroke-width="0.4" />
+                            <path d="M42.7 61.425V59.7H44.425V61.425H42.7Z" fill="url(#paint9_linear)" stroke="white"
+                                stroke-width="0.4" />
+                            <path
+                                d="M46.7602 13.9405L47.0336 13.6125H46.6066H42.5C42.2712 13.6125 42.0519 13.5216 41.8901 13.3599C41.7284 13.1981 41.6375 12.9787 41.6375 12.75C41.6375 12.5213 41.7284 12.3019 41.8901 12.1401C42.0519 11.9784 42.2712 11.8875 42.5 11.8875H48.875C49.1037 11.8875 49.3231 11.9784 49.4849 12.1401L49.6263 11.9987L49.4849 12.1401C49.6466 12.3019 49.7375 12.5212 49.7375 12.75V19.125C49.7375 19.3538 49.6466 19.5731 49.4849 19.7349C49.3231 19.8966 49.1037 19.9875 48.875 19.9875C48.6462 19.9875 48.4269 19.8966 48.2651 19.7349C48.1034 19.5731 48.0125 19.3538 48.0125 19.125V15.6846V15.1325L47.6589 15.5565L38.9082 26.0498C38.7635 26.2231 38.5567 26.3329 38.3321 26.3555C38.1075 26.378 37.8829 26.3116 37.7067 26.1705L37.7066 26.1705L33.1379 22.5144L32.9981 22.4025L32.8715 22.5291L28.2316 27.1691C28.2316 27.1691 28.2316 27.1691 28.2316 27.1691C28.0779 27.3227 27.8719 27.4127 27.6547 27.421C27.4376 27.4294 27.2253 27.3554 27.0603 27.2139L27.0603 27.2139L20.2337 21.3627L20.1187 21.2641L19.9926 21.3482L17.4755 23.0269L17.4755 23.0269C17.2852 23.1539 17.0522 23.2001 16.8279 23.1552C16.6035 23.1104 16.4061 22.9783 16.2792 22.788C16.1522 22.5977 16.1061 22.3647 16.1509 22.1404C16.1957 21.916 16.3278 21.7187 16.5181 21.5917C16.5181 21.5917 16.5181 21.5917 16.5181 21.5917L19.7056 19.4667L19.7056 19.4667C19.8621 19.3623 20.0485 19.312 20.2363 19.3233C20.4241 19.3347 20.603 19.4072 20.7458 19.5297L20.7458 19.5297L27.4396 25.2672L27.5802 25.3878L27.7112 25.2568L32.3277 20.6402L32.3278 20.6402C32.4778 20.49 32.678 20.4005 32.89 20.3887C33.102 20.3769 33.3108 20.4438 33.4766 20.5764L37.9753 24.1751L38.1283 24.2975L38.2538 24.1469L46.7602 13.9405Z"
+                                fill="url(#paint10_linear)" stroke="white" stroke-width="0.4" />
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="34" y1="2.125" x2="34" y2="65.875"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="17" y1="25.5" x2="17" y2="57.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="27.625" y1="29.75" x2="27.625" y2="57.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear" x1="38.25" y1="36.125" x2="38.25" y2="57.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear" x1="48.875" y1="23.375" x2="48.875" y2="57.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear" x1="22.8438" y1="10.625" x2="22.8438" y2="12.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint6_linear" x1="17.5312" y1="14.875" x2="17.5312" y2="17"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint7_linear" x1="25.5" y1="14.875" x2="25.5" y2="17"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint8_linear" x1="49.9375" y1="59.5" x2="49.9375" y2="61.625"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint9_linear" x1="43.5625" y1="59.5" x2="43.5625" y2="61.625"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                                <linearGradient id="paint10_linear" x1="32.9358" y1="11.6875" x2="32.9358" y2="27.6217"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF4B55" />
+                                    <stop offset="1" stop-color="#D21414" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="info-div">
+                        <h4><span>6</span>&nbsp;Account Types</h4>
+                        <p>Complete flexibility for traders of all risk appetites and trading volumes</p>
+                    </div>
+                </div>
+                <div class="indiv-tool">
+                    <div>
+                        <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M43.504 30.7526L43.5038 30.7524C43.2643 30.5557 43.1221 30.2687 43.1044 29.9579C43.0919 29.6481 43.2082 29.3478 43.4269 29.1291L64.2245 8.33144C64.6542 7.90179 65.3501 7.90179 65.7797 8.33144C70.9353 13.487 73.9011 21.3486 73.9011 29.9067L73.9011 29.9089C73.9767 36.8122 71.5816 43.5189 67.1441 48.8137C66.9336 49.0627 66.6242 49.2045 66.302 49.2045C66.0448 49.2045 65.8002 49.1147 65.6017 48.9507L65.6015 48.9505L43.504 30.7526ZM65.1311 10.8504L64.991 10.6805L64.8353 10.8362L45.9926 29.6738L45.8367 29.8296L46.0068 29.9697L65.9819 46.4159L66.1427 46.5483L66.2685 46.3822C69.8539 41.646 71.7671 35.8462 71.7014 29.9081C71.8744 22.9711 69.5429 16.2029 65.1311 10.8504Z"
+                                    fill="url(#paint0_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M64.5448 52.7129L64.5447 52.713C58.8296 59.4773 50.4563 63.4169 41.6039 63.5029C40.9942 63.5024 40.5049 63.0088 40.5049 62.4031V33.8063C40.5049 33.3816 40.7493 32.9945 41.1371 32.809C41.5187 32.6292 41.9741 32.6846 42.3055 32.9556C42.3056 32.9556 42.3057 32.9557 42.3058 32.9558L64.4007 51.1516C64.4011 51.1519 64.4014 51.1522 64.4017 51.1524C64.6269 51.3434 64.7722 51.6152 64.7978 51.9051C64.8237 52.1984 64.7329 52.4905 64.5448 52.7129ZM42.7046 61.0677V61.2795L42.9161 61.2674C50.1931 60.848 57.0251 57.6263 61.9803 52.2876L62.1247 52.1321L61.9609 51.9972L43.0318 36.404L42.7046 36.1345V36.5584V61.0677Z"
+                                    fill="url(#paint1_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M37.7054 0.21011V0.210169L37.7103 0.210046C45.2971 0.0184846 52.6268 2.95239 57.9803 8.33113L57.9806 8.33146C58.4103 8.76111 58.4103 9.45704 57.9806 9.88669L37.5638 30.3035L37.5052 30.3621V30.4449V58.5034C37.5052 59.1089 37.0108 59.6033 36.4054 59.6033C20.4892 59.6033 8.00867 46.5708 8.00862 29.9068C8.02381 13.51 21.3086 0.225241 37.7054 0.21011ZM35.0948 57.3678L35.3055 57.3791V57.168V29.9067C35.3055 29.6146 35.4215 29.3354 35.6278 29.1291L55.486 9.2708L55.6342 9.12267L55.4793 8.98156C50.6333 4.56533 44.2573 2.20591 37.702 2.40982C22.5229 2.42679 10.2237 14.727 10.2083 29.9065V29.9067C10.2083 46.5283 22.6383 56.6973 35.0948 57.3678Z"
+                                    fill="url(#paint2_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M37.5052 62.601V64.7985C36.1422 64.7575 28.1104 64.3323 20.1191 60.1202C15.778 57.8321 11.4527 54.4286 8.21216 49.3648C4.99637 44.3398 2.84152 37.6685 2.80958 28.8069H5.0093C5.04021 37.0786 6.98875 43.3351 9.93028 48.0646C12.8951 52.8315 16.8615 56.0359 20.8654 58.1891C28.3881 62.2345 36.0539 62.5748 37.5052 62.601Z"
+                                    fill="url(#paint3_linear)" stroke="white" stroke-width="0.4" />
+                                <path d="M2.80922 23.6075H5.00922V25.8075H2.80922V23.6075Z" fill="url(#paint4_linear)"
+                                    stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M35.1058 70.0024H34.9058V70.2024V75.4024V75.6024H35.1058H40.3058H40.5058V75.4024V70.2024V70.0024H40.3058H35.1058ZM42.7058 67.8024V77.8024H32.7058V67.8024H42.7058Z"
+                                    fill="url(#paint5_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M48.1043 70.0024H47.9043V70.2024V75.4024V75.6024H48.1043H53.3043H53.5043V75.4024V70.2024V70.0024H53.3043H48.1043ZM45.7043 67.8024H55.7043V77.8024H45.7043V67.8024Z"
+                                    fill="url(#paint6_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M22.1073 70.0024H21.9073V70.2024V75.4024V75.6024H22.1073H27.3073H27.5073V75.4024V70.2024V70.0024H27.3073H22.1073ZM19.7073 67.8024H29.7073V77.8024H19.7073V67.8024Z"
+                                    fill="url(#paint7_linear)" stroke="white" stroke-width="0.4" />
+                                <path
+                                    d="M68.7011 29.7067H66.5072C66.6071 25.0313 65.3619 20.4269 62.9274 16.4359L64.6988 15.1095C65.3755 16.0905 68.65 21.2553 68.7011 29.7067Z"
+                                    fill="url(#paint8_linear)" stroke="white" stroke-width="0.4" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="-5.1905" y1="28.6056" x2="85.2584" y2="28.6056"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="2.23399" y1="48.1029" x2="73.8328" y2="48.1029"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="-70.3369" y1="29.9004" x2="76.6289" y2="29.9004"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear" x1="-51.4915" y1="46.8038" x2="50.254" y2="46.8038"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear" x1="-1.3987" y1="24.7074" x2="6.13887" y2="24.7074"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear" x1="16.4742" y1="72.8021" x2="46.6244" y2="72.8021"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint6_linear" x1="29.4726" y1="72.8021" x2="59.6229" y2="72.8021"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint7_linear" x1="3.47562" y1="72.8021" x2="33.6259" y2="72.8021"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint8_linear" x1="53.0419" y1="22.3661" x2="71.1329" y2="22.3661"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <clipPath id="clip0">
+                                    <rect width="78" height="78" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="info-div">
+                        <h4><span>1200+</span>&nbsp;Trading Products</h4>
+                        <p>All the best possible opportunities to diversify your tradig portfolio</p>
+                    </div>
+                </div>
+                <div class="indiv-tool">
+                    <div>
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 72 72"
+                            style="enable-background:new 0 0 72 72; width: 5rem;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: url(#SVGID_1_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.4;
+                                }
+    
+                                .st1 {
+                                    fill: url(#SVGID_2_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.4;
+                                }
+    
+                                .st2 {
+                                    fill: url(#SVGID_3_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.4;
+                                }
+    
+                                .st3 {
+                                    fill: url(#SVGID_4_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.4;
+                                }
+    
+                                .st4 {
+                                    fill: url(#SVGID_5_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.4;
+                                }
+    
+                                .st5 {
+                                    enable-background: new;
+                                }
+    
+                                .st6 {
+                                    fill: #E8312C;
+                                }
+                            </style>
+                            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1620" y1="-49.2598"
+                                x2="635.3999" y2="-49.2598" gradientTransform="matrix(1 0 0 -1 0 -13.2598)">
+                                <stop offset="0.4641" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st0" d="M31.4,54v-0.2h-0.2H3.6c-1.9,0-3.4-1.5-3.4-3.4V7.2c0-1.9,1.5-3.4,3.4-3.4h64.8c1.9,0,3.4,1.5,3.4,3.4v43.2
+                        c0,1.9-1.5,3.4-3.4,3.4H40.8h-0.2V54v7.2v0.2h0.2h14.4c1.9,0,3.4,1.5,3.4,3.4v3.4H13.4v-3.4c0-1.9,1.5-3.4,3.4-3.4h14.4h0.2v-0.2V54
+                        z M56.4,66.2h0.2V66v-1.2c0-0.8-0.6-1.4-1.4-1.4H16.8c-0.8,0-1.4,0.6-1.4,1.4V66v0.2h0.2H56.4z M38.4,61.4h0.2v-0.2V54v-0.2h-0.2
+                        h-4.8h-0.2V54v7.2v0.2h0.2H38.4z M68.4,51.8c0.8,0,1.4-0.6,1.4-1.4V7.2c0-0.8-0.6-1.4-1.4-1.4H3.6c-0.8,0-1.4,0.6-1.4,1.4v43.2
+                        c0,0.8,0.6,1.4,1.4,1.4C3.6,51.8,68.4,51.8,68.4,51.8z" />
+                            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-1399.2" y1="-39.6598"
+                                x2="555.48" y2="-39.6598" gradientTransform="matrix(1 0 0 -1 0 -13.2598)">
+                                <stop offset="0.4641" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st1"
+                                d="M7.2,10.6H7v0.2V42v0.2h0.2h57.6H65V42V10.8v-0.2h-0.2H7.2z M67,8.6v35.6H5V8.6H67z" />
+                            <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-152.4" y1="-31.2598"
+                                x2="73.1399" y2="-31.2598" gradientTransform="matrix(1 0 0 -1 0 -13.2598)">
+                                <stop offset="0.4641" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st2" d="M12,15.4h-0.2v0.2v7h-2v-9.2h6.8v2C16.6,15.4,12,15.4,12,15.4z" />
+                            <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-44.4" y1="-39.6598" x2="30.78"
+                                y2="-39.6598" gradientTransform="matrix(1 0 0 -1 0 -13.2598)">
+                                <stop offset="0.4641" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st3" d="M9.8,25.4h2v2h-2V25.4z" />
+                            <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-129.6" y1="-61.2598"
+                                x2="95.94" y2="-61.2598" gradientTransform="matrix(1 0 0 -1 0 -13.2598)">
+                                <stop offset="0.4641" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st4" d="M32.6,47h6.8v2h-6.8V47z" />
+                            <g class="st5">
+                                <path class="st6"
+                                    d="M28.7,23.4L28.7,23.4l2.7-9h2v11h-1.5v-7.9l0,0l-2.5,7.9h-1.1l-2.6-8.1l0,0v8.1h-1.5v-11h2L28.7,23.4z" />
+                                <path class="st6" d="M41.8,15.6h-2.9v9.8h-1.5v-9.8h-2.9v-1.2h7.4L41.8,15.6L41.8,15.6z" />
+                                <path class="st6" d="M43.2,20.5l0.6-6.1H49v1.3h-3.9L44.8,19c0.2-0.2,0.4-0.3,0.7-0.5s0.6-0.2,1-0.2c0.9,0,1.6,0.3,2.1,0.9
+                            s0.8,1.5,0.8,2.6s-0.3,2-0.8,2.7s-1.3,1-2.4,1c-0.9,0-1.6-0.3-2.2-0.8s-0.9-1.3-0.9-2.2l0,0h1.5c0,0.6,0.1,1.1,0.4,1.4
+                            c0.3,0.3,0.7,0.5,1.2,0.5c0.6,0,1-0.2,1.2-0.6c0.3-0.4,0.4-1,0.4-1.9c0-0.7-0.1-1.3-0.4-1.7s-0.7-0.7-1.2-0.7s-0.8,0.1-1.1,0.3
+                            c-0.2,0.2-0.4,0.5-0.5,0.8L43.2,20.5z" />
+                                <path class="st6"
+                                    d="M28.7,36.4L28.7,36.4l2.7-9h2v11h-1.5v-7.9l0,0l-2.5,7.9h-1.1l-2.6-8.1l0,0v8.1h-1.5v-11h2L28.7,36.4z" />
+                                <path class="st6" d="M41.8,28.6h-2.9v9.8h-1.5v-9.8h-2.9v-1.2h7.4L41.8,28.6L41.8,28.6z" />
+                                <path class="st6" d="M48.4,34.6h1.3v1.2h-1.3v2.6h-1.6v-2.6h-4.2v-0.9l4.2-7.6h1.6V34.6z M44.1,34.6h2.7v-5.1l0,0L46.6,30
+                            L44.1,34.6z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="info-div">
+                        <h4><span>12</span>&nbsp;Trading Platforms</h4>
+                        <p>Powerful platforms to suit all trading styles and needs on any device</p>
+                    </div>
+                </div>
+                <div class="indiv-tool">
+                    <div>
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 84 84"
+                            style="enable-background:new 0 0 84 84; width: 5rem;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: url(#SVGID_1_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.5;
+                                    stroke-miterlimit: 10;
+                                }
+    
+                                .st1 {
+                                    fill: url(#SVGID_2_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.5;
+                                    stroke-miterlimit: 10;
+                                }
+    
+                                .st2 {
+                                    fill: url(#SVGID_3_);
+                                    stroke: #FFFFFF;
+                                    stroke-width: 0.5;
+                                    stroke-miterlimit: 10;
+                                }
+                            </style>
+                            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2.6259" y1="43.996"
+                                x2="79.4715" y2="43.996" gradientTransform="matrix(1 0 0 -1 0 86)">
+                                <stop offset="0" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st0" d="M80.6,26.4L42.5,9.3c-0.2-0.1-0.4-0.1-0.5-0.1s-0.4,0-0.5,0.1L3.4,26.4c-0.2,0.1-0.4,0.3-0.6,0.5
+                        c-0.1,0.2-0.2,0.5-0.2,0.7c0,0.3,0.1,0.5,0.2,0.7c0.1,0.2,0.3,0.4,0.6,0.5l8.4,3.6v21.4c0,6.5,29,6.6,30.2,6.6
+                        c5.7,0,11.4-0.3,17.1-1v11.5c0,0.2,0.1,0.5,0.2,0.7c0.1,0.2,0.3,0.4,0.5,0.5l5.2,2.6c0.2,0.1,0.4,0.1,0.6,0.1c0.2,0,0.4-0.1,0.6-0.2
+                        c0.2-0.1,0.3-0.3,0.5-0.5c0.1-0.2,0.2-0.4,0.2-0.6V57.8c3.6-1,5.2-2.3,5.2-4V32.4l8.4-3.6c0.2-0.1,0.4-0.3,0.6-0.5
+                        c0.1-0.2,0.2-0.5,0.2-0.7c0-0.3-0.1-0.5-0.2-0.7C81,26.6,80.8,26.5,80.6,26.4L80.6,26.4z M42,11.9l19.7,8.8v5.6
+                        C55.2,25.4,48.6,25,42,24.9c-1.1,0-24.9,0.1-29.5,4.9l-5.3-2.3L42,11.9z M63,32.8c-0.3,0-0.5-0.1-0.7-0.2c-0.2-0.1-0.4-0.3-0.5-0.6
+                        s-0.1-0.5-0.1-0.8c0.1-0.3,0.2-0.5,0.4-0.7c0.2-0.2,0.4-0.3,0.7-0.4c0.3-0.1,0.5,0,0.8,0.1c0.2,0.1,0.4,0.3,0.6,0.5
+                        c0.1,0.2,0.2,0.5,0.2,0.7c0,0.3-0.1,0.7-0.4,0.9C63.7,32.7,63.3,32.8,63,32.8z M61.1,34.9l-1.9,3.8c-0.1,0.2-0.1,0.4-0.1,0.6V43
+                        c-5.7-0.7-11.4-1-17.1-1c-1,0-20.4,0-27.6,3.6l0-14c0.7-1.5,10.5-4,27.6-4c6.1,0,12.2,0.3,18.2,1.2c-0.4,0.4-0.7,1-0.9,1.5
+                        c-0.2,0.6-0.2,1.2-0.1,1.8c0.1,0.6,0.3,1.2,0.7,1.7C60.1,34.2,60.6,34.7,61.1,34.9L61.1,34.9z M14.4,50.8v-2.2
+                        c0.8-1.5,10.6-4,27.6-4c5.7,0,11.4,0.3,17.1,1v2.6c-5.7-0.7-11.4-1-17.1-1C41,47.2,21.6,47.3,14.4,50.8z M42,57.8
+                        c-16.9,0-26.7-2.5-27.5-3.9c1-1.5,10.7-4,27.5-4c5.7,0,11.4,0.3,17.1,1v5.8C53.4,57.4,47.7,57.8,42,57.8L42,57.8z M64.3,71.4
+                        l-2.6-1.3V39.7l1.3-2.6l1.3,2.6V71.4z M64.9,34.9c0.6-0.3,1.1-0.8,1.5-1.4c0.4-0.6,0.6-1.3,0.6-2c0-0.5-0.1-0.9-0.3-1.4
+                        c1.7,0.5,2.7,1,2.9,1.4l0,14c-0.9-0.4-1.7-0.7-2.6-1v-5.2c0-0.2,0-0.4-0.1-0.6L64.9,34.9z M69.6,50.8c-0.9-0.4-1.7-0.7-2.6-1v-2.5
+                        c2.2,0.7,2.6,1.3,2.6,1.4L69.6,50.8z M66.9,55.1v-2.5c0.9,0.2,1.8,0.7,2.6,1.3C68.7,54.4,67.9,54.8,66.9,55.1L66.9,55.1z M69.6,48.6
+                        C69.6,48.6,69.6,48.6,69.6,48.6L69.6,48.6L69.6,48.6z M71.5,29.8c-1.2-1.3-3.9-2.3-7.1-3v-4.9l12.5,5.6L71.5,29.8z" />
+                            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="22.3125" y1="51.875"
+                                x2="176.004" y2="51.875" gradientTransform="matrix(1 0 0 -1 0 86)">
+                                <stop offset="0" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FC4D42" />
+                            </linearGradient>
+                            <path class="st1" d="M19.7,32.8h-2.6v2.6h2.6V32.8z" />
+                            <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="27.5625" y1="53.1875"
+                                x2="181.254" y2="53.1875" gradientTransform="matrix(1 0 0 -1 0 86)">
+                                <stop offset="0" style="stop-color:#D21414" />
+                                <stop offset="1" style="stop-color:#FF4B55" />
+                            </linearGradient>
+                            <path class="st2" d="M24.9,31.5h-2.6v2.6h2.6V31.5z" />
+                        </svg>
+    
+                    </div>
+                    <div class="info-div">
+                        <h4><span>25</span>&nbsp;Video Tutorials</h4>
+                        <p>Our invaluable educational resources provide the ultimate trading guide</p>
+                    </div>
+                </div>
+                <div class="indiv-tool">
+                    <div>
+                        <svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.125 39.3125C20.8382 39.3125 18.6027 39.9906 16.7012 41.2611C14.7998 42.5316 13.3178 44.3374 12.4426 46.4502C11.5675 48.563 11.3385 50.8878 11.7847 53.1307C12.2308 55.3736 13.332 57.4339 14.9491 59.0509C16.5661 60.668 18.6264 61.7692 20.8693 62.2153C23.1122 62.6615 25.437 62.4325 27.5498 61.5574C29.6626 60.6822 31.4684 59.2002 32.7389 57.2988C34.0094 55.3973 34.6875 53.1618 34.6875 50.875C34.6841 47.8095 33.4649 44.8705 31.2972 42.7028C29.1296 40.5351 26.1905 39.3159 23.125 39.3125ZM23.125 60.125C21.2955 60.125 19.5071 59.5825 17.986 58.5661C16.4648 57.5497 15.2792 56.105 14.5791 54.4148C13.879 52.7246 13.6958 50.8647 14.0527 49.0704C14.4097 47.2761 15.2906 45.6279 16.5843 44.3343C17.8779 43.0406 19.5261 42.1596 21.3204 41.8027C23.1147 41.4458 24.9746 41.629 26.6648 42.3291C28.355 43.0292 29.7997 44.2148 30.8161 45.736C31.8325 47.2571 32.375 49.0455 32.375 50.875C32.3723 53.3274 31.3968 55.6786 29.6627 57.4127C27.9286 59.1468 25.5774 60.1222 23.125 60.125V60.125Z"
+                                fill="url(#paint0_linear)" />
+                            <path
+                                d="M23.125 47.4062C23.4317 47.4062 23.7258 47.5281 23.9426 47.7449C24.1594 47.9617 24.2812 48.2558 24.2812 48.5625H26.5938C26.5908 47.8476 26.367 47.1511 25.9531 46.5683C25.5391 45.9855 24.9552 45.5448 24.2812 45.3065V43.9375H21.9688V45.3065C21.1979 45.578 20.548 46.1136 20.1342 46.8183C19.7204 47.5231 19.5693 48.3516 19.7078 49.157C19.8463 49.9625 20.2654 50.6929 20.8908 51.219C21.5163 51.7451 22.3077 52.0328 23.125 52.0312C23.3537 52.0312 23.5772 52.0991 23.7674 52.2261C23.9575 52.3532 24.1057 52.5337 24.1932 52.745C24.2807 52.9563 24.3036 53.1888 24.259 53.4131C24.2144 53.6374 24.1043 53.8434 23.9426 54.0051C23.7809 54.1668 23.5749 54.2769 23.3506 54.3215C23.1263 54.3661 22.8938 54.3432 22.6825 54.2557C22.4712 54.1682 22.2907 54.02 22.1636 53.8299C22.0366 53.6397 21.9688 53.4162 21.9688 53.1875H19.6562C19.6592 53.9024 19.883 54.5989 20.2969 55.1817C20.7109 55.7645 21.2948 56.2052 21.9688 56.4435V57.8125H24.2812V56.4435C25.0521 56.172 25.702 55.6364 26.1158 54.9317C26.5296 54.2269 26.6807 53.3984 26.5422 52.593C26.4037 51.7875 25.9846 51.0571 25.3592 50.531C24.7337 50.0049 23.9423 49.7172 23.125 49.7188C22.8183 49.7188 22.5242 49.5969 22.3074 49.3801C22.0906 49.1633 21.9688 48.8692 21.9688 48.5625C21.9688 48.2558 22.0906 47.9617 22.3074 47.7449C22.5242 47.5281 22.8183 47.4062 23.125 47.4062Z"
+                                fill="url(#paint1_linear)" />
+                            <path
+                                d="M65.9062 4.625H28.9062C27.3735 4.62684 25.9041 5.23652 24.8203 6.32032C23.7365 7.40411 23.1268 8.87353 23.125 10.4062V30.0625H25.4375V10.4062C25.4375 9.48628 25.803 8.60399 26.4535 7.95347C27.104 7.30296 27.9863 6.9375 28.9062 6.9375H65.9062C66.8262 6.9375 67.7085 7.30296 68.359 7.95347C69.0095 8.60399 69.375 9.48628 69.375 10.4062V33.5312C69.375 34.4512 69.0095 35.3335 68.359 35.984C67.7085 36.6345 66.8262 37 65.9062 37H46.25V39.3125H50.875V63.5938C50.872 64.3086 50.6483 65.0051 50.2343 65.5879C49.8204 66.1708 49.2365 66.6115 48.5625 66.8498V42.7812H46.25V66.8498C45.576 66.6115 44.9921 66.1708 44.5782 65.5879C44.1642 65.0051 43.9405 64.3086 43.9375 63.5938V38.1562C43.9357 36.6235 43.326 35.1541 42.2422 34.0703C41.1584 32.9865 39.689 32.3768 38.1562 32.375H8.09375C6.56103 32.3768 5.09161 32.9865 4.00782 34.0703C2.92402 35.1541 2.31434 36.6235 2.3125 38.1562V63.5938C2.31434 65.1265 2.92402 66.5959 4.00782 67.6797C5.09161 68.7635 6.56103 69.3732 8.09375 69.375H47.4062C48.939 69.3732 50.4084 68.7635 51.4922 67.6797C52.576 66.5959 53.1857 65.1265 53.1875 63.5938V39.3125H65.9062C67.439 39.3107 68.9084 38.701 69.9922 37.6172C71.076 36.5334 71.6857 35.064 71.6875 33.5312V10.4062C71.6857 8.87353 71.076 7.40411 69.9922 6.32032C68.9084 5.23652 67.439 4.62684 65.9062 4.625V4.625ZM8.09375 67.0625C7.17378 67.0625 6.29149 66.697 5.64097 66.0465C4.99046 65.396 4.625 64.5137 4.625 63.5938V38.1562C4.625 37.2363 4.99046 36.354 5.64097 35.7035C6.29149 35.053 7.17378 34.6875 8.09375 34.6875H38.1562C39.0762 34.6875 39.9585 35.053 40.609 35.7035C41.2595 36.354 41.625 37.2363 41.625 38.1562V63.5938C41.6227 64.845 42.0287 66.0629 42.7812 67.0625H8.09375Z"
+                                fill="url(#paint2_linear)" />
+                            <path
+                                d="M39.3125 11.5625H32.375C31.7617 11.5625 31.1735 11.8061 30.7398 12.2398C30.3061 12.6735 30.0625 13.2617 30.0625 13.875V18.5C30.0625 19.1133 30.3061 19.7015 30.7398 20.1352C31.1735 20.5689 31.7617 20.8125 32.375 20.8125H39.3125C39.9258 20.8125 40.514 20.5689 40.9477 20.1352C41.3814 19.7015 41.625 19.1133 41.625 18.5V13.875C41.625 13.2617 41.3814 12.6735 40.9477 12.2398C40.514 11.8061 39.9258 11.5625 39.3125 11.5625ZM32.375 18.5V13.875H39.3125V18.5H32.375Z"
+                                fill="url(#paint3_linear)" />
+                            <path
+                                d="M49.7188 27.75C49.7188 28.9766 50.206 30.153 51.0734 31.0204C51.9407 31.8877 53.1171 32.375 54.3437 32.375C55.3935 32.3703 56.4098 32.0054 57.2228 31.3413C57.9014 31.892 58.7222 32.2391 59.59 32.3425C60.4578 32.4459 61.3371 32.3013 62.1261 31.9255C62.9151 31.5496 63.5814 30.958 64.048 30.219C64.5145 29.48 64.7621 28.6239 64.7621 27.75C64.7621 26.8761 64.5145 26.02 64.048 25.281C63.5814 24.542 62.9151 23.9504 62.1261 23.5745C61.3371 23.1987 60.4578 23.0541 59.59 23.1575C58.7222 23.2609 57.9014 23.608 57.2228 24.1587C56.4098 23.4946 55.3935 23.1297 54.3437 23.125C53.1171 23.125 51.9407 23.6123 51.0734 24.4796C50.206 25.347 49.7188 26.5234 49.7188 27.75ZM62.4375 27.75C62.4375 28.3633 62.1939 28.9515 61.7602 29.3852C61.3265 29.8189 60.7383 30.0625 60.125 30.0625C59.5723 30.0639 59.0381 29.8642 58.6219 29.5006C58.8524 28.9457 58.9711 28.3508 58.9711 27.75C58.9711 27.1492 58.8524 26.5543 58.6219 25.9994C59.0381 25.6358 59.5723 25.4361 60.125 25.4375C60.7383 25.4375 61.3265 25.6811 61.7602 26.1148C62.1939 26.5485 62.4375 27.1367 62.4375 27.75ZM54.3437 25.4375C54.8011 25.4375 55.2482 25.5731 55.6285 25.8272C56.0088 26.0813 56.3052 26.4425 56.4802 26.865C56.6552 27.2876 56.701 27.7526 56.6118 28.2011C56.5226 28.6497 56.3023 29.0618 55.9789 29.3852C55.6555 29.7086 55.2435 29.9288 54.7949 30.0181C54.3463 30.1073 53.8813 30.0615 53.4588 29.8865C53.0362 29.7114 52.6751 29.415 52.421 29.0348C52.1669 28.6545 52.0312 28.2074 52.0312 27.75C52.0312 27.1367 52.2749 26.5485 52.7086 26.1148C53.1422 25.6811 53.7304 25.4375 54.3437 25.4375Z"
+                                fill="url(#paint4_linear)" />
+                            <path d="M64.75 12.7188H62.4375V17.3438H64.75V12.7188Z" fill="url(#paint5_linear)" />
+                            <path d="M60.125 12.7188H57.8125V17.3438H60.125V12.7188Z" fill="url(#paint6_linear)" />
+                            <path d="M55.5 12.7188H53.1875V17.3438H55.5V12.7188Z" fill="url(#paint7_linear)" />
+                            <path d="M50.875 12.7188H48.5625V17.3438H50.875V12.7188Z" fill="url(#paint8_linear)" />
+                            <path d="M32.375 25.4375H30.0625V27.75H32.375V25.4375Z" fill="url(#paint9_linear)" />
+                            <path d="M37 25.4375H34.6875V27.75H37V25.4375Z" fill="url(#paint10_linear)" />
+                            <path d="M39.3125 25.4375V27.75H41.625H43.9375V25.4375H41.625H39.3125Z"
+                                fill="url(#paint11_linear)" />
+                            <path d="M20.8125 11.5625H13.875V13.875H20.8125V11.5625Z" fill="url(#paint12_linear)" />
+                            <path d="M16.1875 16.1875H6.9375V18.5H16.1875V16.1875Z" fill="url(#paint13_linear)" />
+                            <path d="M4.625 16.1875H2.3125V18.5H4.625V16.1875Z" fill="url(#paint14_linear)" />
+                            <path d="M18.5 20.8125H13.875V23.125H18.5V20.8125Z" fill="url(#paint15_linear)" />
+                            <path d="M11.5625 20.8125H9.25V23.125H11.5625V20.8125Z" fill="url(#paint16_linear)" />
+                            <path d="M16.1875 25.4375H11.5625V27.75H16.1875V25.4375Z" fill="url(#paint17_linear)" />
+                            <path d="M9.25 25.4375H6.9375V27.75H9.25V25.4375Z" fill="url(#paint18_linear)" />
+                            <path d="M4.625 25.4375H2.3125V27.75H4.625V25.4375Z" fill="url(#paint19_linear)" />
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="23.125" y1="39.3125" x2="23.125" y2="62.4375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="23.125" y1="43.9375" x2="23.125" y2="57.8125"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="37" y1="4.625" x2="37" y2="69.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear" x1="35.8438" y1="11.5625" x2="35.8438" y2="20.8125"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear" x1="57.2404" y1="23.125" x2="57.2404" y2="32.375"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear" x1="63.5938" y1="12.7188" x2="63.5938" y2="17.3438"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint6_linear" x1="58.9688" y1="12.7188" x2="58.9688" y2="17.3438"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint7_linear" x1="54.3438" y1="12.7188" x2="54.3438" y2="17.3438"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint8_linear" x1="49.7188" y1="12.7188" x2="49.7188" y2="17.3438"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint9_linear" x1="31.2188" y1="25.4375" x2="31.2188" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint10_linear" x1="35.8438" y1="25.4375" x2="35.8438" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint11_linear" x1="41.625" y1="25.4375" x2="41.625" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint12_linear" x1="17.3438" y1="11.5625" x2="17.3438" y2="13.875"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint13_linear" x1="11.5625" y1="16.1875" x2="11.5625" y2="18.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint14_linear" x1="3.46875" y1="16.1875" x2="3.46875" y2="18.5"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint15_linear" x1="16.1875" y1="20.8125" x2="16.1875" y2="23.125"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint16_linear" x1="10.4062" y1="20.8125" x2="10.4062" y2="23.125"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint17_linear" x1="13.875" y1="25.4375" x2="13.875" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint18_linear" x1="8.09375" y1="25.4375" x2="8.09375" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                                <linearGradient id="paint19_linear" x1="3.46875" y1="25.4375" x2="3.46875" y2="27.75"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#D21414" />
+                                    <stop offset="1" stop-color="#FC4D42" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="info-div">
+                        <h4><span>15+</span>&nbsp;Fundings Methods</h4>
+                        <p>Fund your account for free with these quick, easy and secure methods</p>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="funding-open-acct"><b>Open Live Account</b></a>
+        </div>
+        <div style="background-color: rgb(31, 32, 32);">
+            <div class="analyst-div">
+                <div class="indiv-card">
+                    <div class="img-div"><img src="./images/analysts_new.jpg"></div>
+                    <div class="indiv-last-child">
+                        <h4>HotForex Market Analysts</h4>
+                        <ul>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Daily Market Analysis</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Weekly Live Webinars</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Live Q&A Sessions</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Trading Strategy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bloomberg">
+                        <a href="" class="learn-more">Learn More</a>
+                        <div>
+                            <h5>As featured on</h5>
+                            <img src="./images/bloom.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="indiv-card">
+                    <div class="img-div"><img src="./images/awards_370banner2.jpg"></div>
+                    <div class="indiv-last-child">
+                        <h4>Multi-Awarded Broker</h4>
+                        <ul>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">55+ Industry Awards</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Top 100 Companies</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Best Client Funds Security Global</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Best Forex News & Analysis Provider</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="learn-m">Learn More</a>
+                </div>
+                <div class="indiv-card">
+                    <div class="img-div"><img src="./images/fthbduj.PNG"></div>
+                    <div class="indiv-last-child">
+                        <h4>Investments</h4>
+                        <ul>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">HFcopy - How it Works</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Become a Follower</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">PAMM Ranking</a>
+                            </li>
+                            <li>
+                                <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                    <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                        <path d="M0 10 L4 14.6 L13 7">
+                                    </g>
+                                </svg>
+                                <a href="" target="_blank">Become an Investor</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="learn-m">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="trading-tools tools-main">
+            <div class="indiv-bonus-card">
+                <div style="height: 5rem;">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 111 100"
+                        style="enable-background:new 0 0 111 100; width: 5.5rem;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #EB382F;
+                                stroke: #EB382F;
+                                stroke-width: 0.4756;
+                                stroke-miterlimit: 10;
+                            }
+    
+                            .st1 {
+                                clip-path: url(#SVGID_2_);
+                            }
+    
+                            .st2 {
+                                fill: #EB382F;
+                                stroke: #EB382F;
+                                stroke-width: 0.75;
+                                stroke-miterlimit: 10;
+                            }
+                        </style>
+                        <g transform="translate(0,-952.36218)">
+                            <g>
+                                <path class="st0" d="M37.9,988.9c-0.6,0.1-1,0.5-0.9,1v21H3.4c0,0-0.1,0-0.1,0c-0.6,0-1.1,0.5-1,1v38c0,0.6,0.5,1,1.2,1h104.2
+                            c0.6,0,1.2-0.4,1.2-1v-26c0-0.6-0.5-1-1.2-1H74v-33c0-0.6-0.5-1-1.2-1H38.1C38.1,988.9,38,988.9,37.9,988.9z M39.3,990.9h32.4v58
+                            H39.3V990.9z M4.6,1012.9H37v36H4.6V1012.9z M74,1024.9h32.4v24H74V1024.9z" />
+                            </g>
+                        </g>
+                        <g>
+                            <defs>
+                                <rect id="SVGID_1_" x="29.6" y="-6.5" width="57" height="44" />
+                            </defs>
+                            <clipPath id="SVGID_2_">
+                                <use xlink:href="#SVGID_1_" style="overflow:visible;" />
+                            </clipPath>
+                            <g class="st1">
+                                <path class="st2" d="M69.4,1.8h-5.3H46.8c0,0,0,0,0,0s0,0,0,0h-5.3c-0.4,0-0.7,0.3-0.7,0.7v8.3c0,3.2,2.5,5.9,5.7,6
+                            c1.1,3.6,4.3,6.4,8.2,6.7V29c-2.3,0.2-4.2,1.7-4.6,3.5h-2.9c-0.4,0-0.7,0.3-0.7,0.7v4.3h-2.6c-0.4,0-0.7,0.3-0.7,0.7v5
+                            c0,0.4,0.3,0.7,0.7,0.7H67c0.4,0,0.7-0.3,0.7-0.7v-5c0-0.4-0.3-0.7-0.7-0.7h-2.6v-4.3c0-0.4-0.3-0.7-0.7-0.7h-2.9
+                            c-0.4-1.8-2.2-3.3-4.6-3.5v-5.6c3.9-0.3,7.2-3,8.2-6.7c3.2-0.2,5.7-2.8,5.7-6V2.5C70.1,2.1,69.8,1.8,69.4,1.8z M46.1,15.3
+                            c-2.2-0.3-3.9-2.3-3.9-4.6V3.2h3.9V15.3z M66.3,42.5H44.6v-3.6h2.6h16.4h2.6V42.5z M63,37.5h-15V34h2.9h9.3H63V37.5z M59.3,32.6
+                            h-7.7c0.4-1.2,2-2.2,3.8-2.2S58.8,31.3,59.3,32.6z M55.5,22.1c-4.4,0-7.9-3.6-7.9-7.9v-11h15.8v11C63.4,18.5,59.8,22.1,55.5,22.1z
+                            M68.7,10.8c0,2.3-1.7,4.2-3.9,4.6v-1.2c0,0,0,0,0,0v-11h3.9L68.7,10.8L68.7,10.8z" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="hr-line"></div>
+                <div class="bonus-div">
+                    <h4><a href="">Our Advantages</a></h4>
+                    <ul>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Free Funding
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Multiple trading accounts
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Insurance for clients funds
+                        </li>
+                    </ul>
+                    <div>Read More</div>
+                </div>
+            </div>
+            <div class="indiv-bonus-card">
+                <div style="height: 5rem;">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 103.2 100"
+                        style="enable-background:new 0 0 103.2 100; width: 5rem;" xml:space="preserve">
+                        <style type="text/css">
+                            .stk {
+                                fill: #EB382F;
+                                stroke: #FFFFFF;
+                                stroke-width: 2.8;
+                                stroke-miterlimit: 10;
+                            }
+                        </style>
+                        <g>
+                            <path class="stk" d="M1.5,25.4C1.5,11,8.1,0.6,23,0.6c15,0,21.6,10.4,21.6,24.8v50.2c0,14.3-6.6,24.8-21.6,24.8
+                        c-15,0-21.6-10.5-21.6-24.8V25.4z M7.9,75.9c0,10.8,4.3,18.6,15.1,18.6c10.8,0,15.1-7.8,15.1-18.6V25c0-10.6-4.3-18.5-15.1-18.5
+                        C12.3,6.5,7.9,14.3,7.9,25V75.9z" />
+                            <path class="stk" d="M54.6,87.2v12.3h-6.3V87.2H54.6z" />
+                            <path class="stk" d="M58.3,25.4c0-14.4,6.6-24.8,21.6-24.8c15,0,21.6,10.4,21.6,24.8v50.2c0,14.3-6.6,24.8-21.6,24.8
+                        c-15,0-21.6-10.5-21.6-24.8V25.4z M64.8,75.9c0,10.8,4.3,18.6,15.1,18.6c10.8,0,15.1-7.8,15.1-18.6V25c0-10.6-4.3-18.5-15.1-18.5
+                        c-10.8,0-15.1,7.8-15.1,18.5V75.9z" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="hr-line"></div>
+                <div class="bonus-div">
+                    <h4><a href="">Zero Spread Account</a></h4>
+                    <ul>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Raw spreads with 0 markups
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Low Commissions
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Low Cost Trading
+                        </li>
+                    </ul>
+                    <div>Read More</div>
+                </div>
+            </div>
+            <div class="indiv-bonus-card">
+                <div style="height: 5rem;">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 90.2 100"
+                        style="enable-background:new 0 0 90.2 100; width: 5rem;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #EB382F;
+                                stroke: #EB382F;
+                                stroke-width: 0.3;
+                                stroke-miterlimit: 10;
+                            }
+                        </style>
+                        <g transform="translate(0,-952.36218)">
+                            <path class="st0" d="M30.8,953.4c-3.2,0-6,1.8-8,4.7c-1.8,2.7-3,6.2-3.2,10h-17c-0.7,0-1.2,0.5-1.2,1.2v16.5c0,0.7,0.5,1.2,1.2,1.2
+                        h5.3v62.8c0,0.7,0.5,1.2,1.2,1.2h72.2c0.7,0,1.2-0.5,1.2-1.2v-62.8h5.3c0.7,0,1.2-0.5,1.2-1.2v-16.5c0-0.7-0.5-1.2-1.2-1.2h-17
+                        c-0.2-3.7-1.3-7.2-3.2-9.7c-2-2.8-4.8-4.7-8-4.7c-2.3,0-4.8,1.5-7.3,3.2c-2.5,1.7-5,3.5-6.7,4.7l0,0l-0.3,0.2
+                        c-1.7-1.2-4.2-3-6.7-4.7c-1.3-1-2.7-1.8-4-2.5C33.1,953.9,32,953.4,30.8,953.4L30.8,953.4z M30.8,955.5c0.5,0,1.5,0.3,2.7,0.8
+                        s2.5,1.3,3.8,2.3c2.2,1.5,4.2,3,5.8,4.2l-7.7,5H21.8c0.2-3.3,1.2-6.5,2.7-8.7C26.3,956.9,28.4,955.5,30.8,955.5z M59.5,955.9
+                        c2.3,0,4.5,1.3,6.2,3.7c1.5,2.2,2.5,5.2,2.7,8.4H39.6l7.2-4.7l0,0c1.8-1.2,4.2-3,6.7-4.7C55.8,957,58.3,955.9,59.5,955.9
+                        L59.5,955.9z M3.7,970.2H39v7.5c0,0.7,0.5,1.2,1.2,1.2s1.2-0.5,1.2-1.2l0,0v-7.5h7.9v7.5c0,0.7,0.5,1.2,1.2,1.2
+                        c0.7,0,1.2-0.5,1.2-1.2l0,0v-7.5h35.2v14.2h-83C3.7,984.6,3.7,970.2,3.7,970.2z M10.2,986.8H39v61.6H10.2V986.8L10.2,986.8z
+                        M41.1,986.8h8v61.6h-7.9L41.1,986.8L41.1,986.8z M51.3,986.8h28.7v61.6H51.3V986.8L51.3,986.8z" />
+                        </g>
+                    </svg>
+    
+                </div>
+                <div class="hr-line"></div>
+                <div class="bonus-div">
+                    <h4><a href="">Bonus Offerings</a></h4>
+                    <ul>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            100% Supercharged Bonus
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            100% Credit Bonus
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            30% Rescue Bonus
+                        </li>
+                    </ul>
+                    <div>Read More</div>
+                </div>
+            </div>
+            <div class="indiv-bonus-card">
+                <div style="height: 5rem;">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 155.2 100"
+                        style="enable-background:new 0 0 155.2 100; width: 8rem;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #EB382F;
+                                stroke: #FFFFFF;
+                                stroke-width: 0.7;
+                                stroke-miterlimit: 10;
+                            }
+                        </style>
+                        <g>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M104.1,20.1l-37.8-13c-3.5-1.2-7.6-0.9-11,0.6l-2,0.9c-2.6,1.2-5.7,1.4-8.3,0.5l-3.2-1.2
+                                c-0.2-0.2-0.3-0.2-0.5-0.3L22,1c-0.5,0-1.1,0-1.4,0.3c-0.5,0.2-0.8,0.6-0.9,1.1L3.3,49.8c-0.3,0.9,0.2,2,1.1,2.3l19.4,6.7
+                                c0.2,0.2,0.5,0.2,0.6,0.2c0.3,0,0.6,0,0.8-0.2c0.5-0.2,0.8-0.6,0.9-1.1L41.7,12l2,0.8c3.7,1.2,7.6,1.1,11.2-0.6l1.8-0.9
+                                c2.6-1.2,5.5-1.4,8.3-0.5l36.4,12.5c-0.3,1.5-1.1,4.3-3.1,5.7c-1.8,1.2-4.3,1.2-7.6,0.2L75,23.5c-0.5-0.2-1.1-0.2-1.5,0.2
+                                c-0.5,0.3-0.8,0.6-0.9,1.2c0,0.2-2.4,8.9-9.8,12.7c-4.6,2.4-10.4,2.6-17.1,0.3c-0.9-0.3-2,0.2-2.3,1.1s0.2,2,1.1,2.3
+                                c3.5,1.2,7,1.8,10.1,1.8c3.7,0,6.9-0.8,9.9-2.4c6.6-3.5,9.8-9.9,10.9-13.1l14.1,4.9c4.4,1.5,8.1,1.4,10.9-0.6
+                                c4.6-3.1,4.7-9.6,4.7-9.8C105.5,21.2,104.8,20.4,104.1,20.1z M23.3,54.7L7.4,49.2l15.1-44L38,10.5c0.2,0,0.3,0.2,0.3,0.2l0,0
+                                L23.3,54.7z" />
+                                    <path class="st0" d="M152.7,47.3l-22-45c-0.2-0.5-0.6-0.8-1.1-0.9c-0.5-0.2-0.9-0.2-1.4,0.2l-18.3,9c-0.9,0.5-1.2,1.5-0.9,2.4
+                                L130.4,57l-7.2,6.6c-6.1,5.7-13,10.2-20.5,13.9L67.4,94.6c-0.9,0.5-2.1,0.6-3.1,0.2c-1.1-0.3-1.8-1.1-2.3-2.1
+                                c-0.5-0.9-0.6-2.1-0.2-3.1c0.3-1.1,1.1-1.8,2.1-2.3l19.7-9.6c0.9-0.5,1.2-1.5,0.9-2.4c-0.5-0.9-1.5-1.2-2.4-0.9l-19.3,9.5
+                                l-9.8,4.7c-2,0.9-4.4,0.2-5.5-1.8c-0.9-2-0.2-4.4,1.8-5.5l28.3-13.9c0.9-0.5,1.2-1.5,0.9-2.4c-0.5-0.9-1.5-1.2-2.4-0.9L55.2,74.2
+                                l-7.3,3.5l-3.5,1.7c-2,0.9-4.4,0.2-5.5-1.8c-0.9-2-0.2-4.4,1.8-5.5l3.5-1.7L69.5,58c0.9-0.5,1.2-1.5,0.9-2.4
+                                c-0.5-0.9-1.5-1.2-2.4-0.9l-16.2,8l-9,4.4c-0.9,0.5-2.1,0.6-3.1,0.2c-1.1-0.3-1.8-1.1-2.3-2.1c-0.5-0.9-0.6-2.1-0.2-3.1
+                                c0.3-1.1,1.1-1.8,2.1-2.3l13.5-6.6c0.9-0.5,1.2-1.5,0.9-2.4c-0.5-0.9-1.5-1.2-2.4-0.9l-13.5,6.6c-1.8,0.9-3.2,2.4-4,4.4
+                                c-0.6,2-0.6,4.1,0.3,6c0.8,1.5,1.8,2.6,3.2,3.4c-2.3,2.3-3.1,5.8-1.5,9c1.4,2.8,4.1,4.3,7,4.3c0.3,0,0.6,0,1.1,0
+                                c-0.3,1.5,0,3.2,0.6,4.7c1.4,2.8,4.1,4.3,7,4.3c1.1,0,2.3-0.3,3.4-0.8l3.4-1.7c-0.2,1.4,0.2,2.9,0.8,4.1c0.9,1.8,2.4,3.2,4.4,4
+                                c0.8,0.3,1.7,0.5,2.6,0.5c1.2,0,2.3-0.3,3.4-0.8l35.3-17.3c7.8-3.8,15-8.7,21.3-14.5l8-7.3l18.2-8.9
+                                C152.9,49.3,153.2,48.2,152.7,47.3z M133.4,54.8l-20.5-41.7l15.1-7.3l20.5,41.7L133.4,54.8z" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+    
+                </div>
+                <div class="hr-line"></div>
+                <div class="bonus-div">
+                    <h4><a href="">Become an Affiliate</a></h4>
+                    <ul>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Earnings up to $15 per lot
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Auto or Manual Rebate Systems
+                        </li>
+                        <li>
+                            <svg height="15" style="width: 17px" viewBox="-4 0 18 18">
+                                <g stroke="rgb(32, 141, 68)" stroke-width="3" fill="none">
+                                    <path d="M0 10 L4 14.6 L13 7">
+                                </g>
+                            </svg>
+                            Free Marketing Tools
+                        </li>
+                    </ul>
+                    <div>Read More</div>
+                </div>
+            </div>
+        </div>
+        
+	<div class="cookie-div">
+		<p>Cookies are being used on our website. Please read our <a href=""><u>Cookies policy</u></a>.</p>
+		<center><a class="close-cookie" href="">
+				<div>Close</div>
+			</a></center>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
